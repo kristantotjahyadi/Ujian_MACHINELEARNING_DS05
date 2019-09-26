@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Digimon Recommendation</title>
+    <style>
+        body,html{height: 100%;}
+        body{background-image: url(https://thewallpaper.co//wp-content/uploads/2016/10preview/digimon-photo-free-hd-wallpapers-background-photos-windows-mac-wallpapers-artworks-high-definition-samsung-wallpapers-wallpaper-for-iphone-1920x1080.jpg);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+    </style>
+    
+   
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body>
+    <div class="card-panel teal lighten-2"><h3><b>Digimon Favorit Anda</b></h3><br><br>
+        <img src="{{ data['images'][0] }}" alt="logo">
+        <div class="row">
+        <p class="col s4"><h4><b>{{ data['namas'][0] }}</b></h4></p>
+        </div>
+        <div class="row">
+            <p class="col s4"><b>Stage</b></p>
+            <p class="col s4"><b>Type</b></p>
+            <p class="col s4"><b>Attribute</b></p>
+        </div>
+        <div class="row">
+        <p class="col s4"><b>{{ data['stages'][0] }}</b></p>
+        <p class="col s4"><b>{{ data['types'][0] }}</b></p>
+        <p class="col s4"><b>{{ data['attribute'][0] }}</b></p>
+    </div>
+    </div>
+    <div class="card-panel teal lighten-2">
+        <h3><b>Digimon Rekomendasi untuk Anda</b></h3><br><br>
+        <img src="{{ data['image'][0] }}" alt="logo">
+        <div class="row">
+        <p class="col s4"><h4><b>{{ data['nama'][0] }}</b></h4></p>
+        </div>
+        <div class="row">
+            <p class="col s4"><b>Stage</b></p>
+            <p class="col s4"><b>Type</b></p>
+            <p class="col s4"><b>Attribute</b></p>
+        </div>
+        <div class="row">
+        <p class="col s4"><b>{{ data['stage'][0] }}</b></p>
+        <p class="col s4"><b>{{ data['type'][0] }}</b></p>
+        <p class="col s4"><b>{{ data['attribute'][0] }}</b></p><br>
+        <img src="{{ data['image'][1] }}" alt="logo">
+        <div class="row">
+        <p class="col s4"><h4><b>{{ data['nama'][1] }}</b></h4></p>
+        </div>
+        <div class="row">
+            <p class="col s4"><b>Stage</b></p>
+            <p class="col s4"><b>Type</b></p>
+            <p class="col s4"><b>Attribute</b></p>
+        </div>
+        <div class="row">
+        <p class="col s4"><b>{{ data['stage'][1] }}</b></p>
+        <p class="col s4"><b>{{ data['type'][1] }}</b></p>
+        <p class="col s4"><b>{{ data['attribute'][1] }}</b></p>
+        <img src="{{ data['image'][2] }}" alt="logo">
+        <div class="row">
+        <p class="col s4"><h4><b>{{ data['nama'][2] }}</b></h4></p>
+        </div>
+        <div class="row">
+            <p class="col s4"><b>Stage</b></p>
+            <p class="col s4"><b>Type</b></p>
+            <p class="col s4"><b>Attribute</b></p>
+        </div>
+        <div class="row">
+        <p class="col s4"><b>{{ data['stage'][2] }}</b></p>
+        <p class="col s4"><b>{{ data['type'][2] }}</b></p>
+        <p class="col s4"><b>{{ data['attribute'][2] }}</b></p><br>
+        <img src="{{ data['image'][3] }}" alt="logo">
+        <div class="row">
+        <p class="col s4"><h4><b>{{ data['nama'][3] }}</b></h4></p>
+        </div>
+        <div class="row">
+            <p class="col s4"><b>Stage</b></p>
+            <p class="col s4"><b>Type</b></p>
+            <p class="col s4"><b>Attribute</b></p>
+        </div>
+        <div class="row">
+        <p class="col s4"><b>{{ data['stage'][3] }}</b></p>
+        <p class="col s4"><b>{{ data['type'][3] }}</b></p>
+        <p class="col s4"><b>{{ data['attribute'][3] }}</b></p><br>
+        <img src="{{ data['image'][4] }}" alt="logo">
+        <div class="row">
+        <p class="col s4"><h4><b>{{ data['nama'][4] }}</b></h4></p>
+        </div>
+        <div class="row">
+            <p class="col s4"><b>Stage</b></p>
+            <p class="col s4"><b>Type</b></p>
+            <p class="col s4"><b>Attribute</b></p>
+        </div>
+        <div class="row">
+        <p class="col s4"><b>{{ data['stage'][4] }}</b></p>
+        <p class="col s4"><b>{{ data['type'][4] }}</b></p>
+        <p class="col s4"><b>{{ data['attribute'][4] }}</b></p><br>
+        <img src="{{ data['image'][5] }}" alt="logo">
+        <div class="row">
+        <p class="col s4"><h4><b>{{ data['nama'][5] }}</b></h4></p>
+        </div>
+        <div class="row">
+            <p class="col s4"><b>Stage</b></p>
+            <p class="col s4"><b>Type</b></p>
+            <p class="col s4"><b>Attribute</b></p>
+        </div>
+        <div class="row">
+        <p class="col s4"><b>{{ data['stage'][5] }}</b></p>
+        <p class="col s4"><b>{{ data['type'][5] }}</b></p>
+        <p class="col s4"><b>{{ data['attribute'][5] }}</b></p><br><br><br><br><br>
+        <center><input type="button" onclick="location.href='http://127.0.0.1:5000/'" value="Kembali" class="waves-effect waves-light btn"></center>
+    </div>
+</body>
+</html>
